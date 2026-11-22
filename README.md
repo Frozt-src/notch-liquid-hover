@@ -1,8 +1,8 @@
 # Notch Liquid Hover
 
-[![Notch Liquid Hover: the notch's top edge swells up under the pointer and follows it along the taskbar](media/preview.gif)](media/notch-liquid-hover-showcase.mp4)
+![Notch Liquid Hover: the notch's top edge swells up under the pointer and follows it along the taskbar](media/preview.gif)
 
-**[Watch the full showcase (22 seconds)](media/notch-liquid-hover-showcase.mp4)**
+**[Download the full 22-second showcase (MP4, 8.9 MB)](https://github.com/Frozt-src/notch-liquid-hover/raw/main/media/notch-liquid-hover-showcase.mp4)**
 
 *Real recording of the mod running on Windows 11. The icons are neutral placeholders; you will see your own apps.*
 
