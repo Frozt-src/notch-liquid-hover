@@ -65,3 +65,11 @@ that the pointer has arrived and where the taskbar is. From then on a per-frame 
 cursor, because pointer events stop once a window preview opens. Each bulge is one XAML `Polygon` redrawn
 every frame, plus the click-through overlay window described above. Everything the mod adds is removed when
 it is disabled or unloaded.
+
+## License
+
+Copyright 2026 [frozt](https://github.com/frozt-src). The code is licensed under the
+[Apache License 2.0](LICENSE). If you distribute this mod or a modified version, keep its copyright and
+attribution notices, including those in [NOTICE](NOTICE), and mark the files you changed.
+
+The showcase video and GIF in `media/` are not covered by that license; all rights reserved.

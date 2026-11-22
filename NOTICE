@@ -1,0 +1,8 @@
+Notch Liquid Hover
+Copyright 2026 frozt (https://github.com/frozt-src)
+
+This product includes a Taskbar.View.dll hook setup and a RunFromWindowThread
+helper that follow the pattern used by Windhawk catalog mods, including
+Taskbar Dock Animation by Ph0en1x-dev and Windows 11 Taskbar Styler by m417z,
+which are distributed under the MIT License. The MIT License text and their
+copyright notices are in notch-liquid-hover.wh.cpp.
