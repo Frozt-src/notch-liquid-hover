@@ -4,7 +4,7 @@
 // @description     Pulls a soft bulge of the NotchDock's body up under the pointer, like a liquid surface
 // @version         0.5.0
 // @author          frozt
-// @github          https://github.com/frozt-src
+// @github          https://github.com/Frozt-src
 // @license         Apache-2.0
 // @include         explorer.exe
 // @architecture    x86-64
