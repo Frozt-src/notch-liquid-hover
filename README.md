@@ -9,7 +9,14 @@
 A [Windhawk](https://windhawk.net/) mod that adds a liquid hover effect to the **NotchDock** taskbar theme.
 Point at an icon and the notch's top edge swells up under it like the surface of a liquid, glides with the
 pointer from icon to icon, and sinks back with a soft spring when the pointer leaves. At either end of the
-row the notch's curved slope lifts with it. The notch around the clock and system icons does the same.
+row the notch's curved slope lifts with it, and the icons ride up and down on the surface. Click an icon and
+the surface dips, springs back and sends a ripple running out along the notch; sweep the pointer fast and
+the swell leans into the motion. When an app asks for attention, the surface breathes over its icon and
+then settles into a low swell until you look. The notch around the clock and system icons rises and
+ripples too.
+
+The showcase above was recorded with version 0.5.0, before the ripple, the riding icons and the attention
+swell were added.
 
 ## Status
 
@@ -49,12 +56,17 @@ up, and the mouse does not see it: clicks land on the window underneath.
 | Height | How far the surface may rise, in pixels (2 to 24) | 8 |
 | Dock bulge width | Width of the raised stretch on the dock, in pixels (60 to 400) | 168 |
 | Tray bulge width | Width of the raised stretch on the tray, in pixels (40 to 300) | 120 |
+| Liquid motion | The dip and ripple on a click, and the lean on a fast sweep | On |
+| Attention swell | The surface breathes over an app that asks for attention, then rests as a low swell until you open it | On |
+| Icons ride the surface | Dock icons rise and fall with the surface under them | On |
 | Colour | The notch's colour as `#RRGGBB`; it must match the theme's notch | `#000000` |
 
 ## Known limitations
 
 - Built for NotchDock's notch shape only; other themes are ignored on purpose.
-- The tray's bulge starts working after the dock has been hovered once since Explorer started.
+- The tray's bulge and the attention swell start working after the dock has been hovered once since
+  Explorer started.
+- The bulge sinks while another program's window covers the taskbar, such as a full-screen app.
 - Tested on Windows 11 build 26300 with one taskbar. Taskbars on secondary monitors, top or side taskbars
   and other builds are untested.
 
